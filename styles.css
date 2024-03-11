@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+}
+
+
+
+.navbar{
+    text-shadow: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding: 15px 10px;
+}
+.navbar button{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+}
+.menu-icon i{
+    display: none;
+}
+
+.navbar a{
+    margin-right: 10px;
+}
+
+/* section-1 */
+
+.section-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  background: url(forest.svg) no-repeat ;
+  background-size: cover;
+  background-position: center;
+  padding: 0 15px 15px 15px;
+  
+}
+.links a{
+    text-decoration: none;
+    padding: 15px 10px;
+    color: white; 
+}
+.section-1 .heading{
+    width: 650px;
+    text-align: center;
+    margin: 120px 20px 50px 20px;
+    color: rgb(249, 228, 201);
+
+}
+
+
+/* Search Bar */
+
+
+.search{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+    justify-items: left;
+    gap: 30px;
+    background: none;
+    border: 2px antiquewhite solid;
+    padding: 20px;
+    margin: 30px 30px 70px 20px;
+    font-size: 22px;
+    border-radius: 16px;
+}
+.search select {
+    /* padding: 10px 15px; */
+    border: none;
+    /* background-color: transparent; */
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: 22px;
+}
+.search input{
+    background: none;
+    color: white;
+    border: none;
+    font-size: 22px;
+}
+
+.search select:focus{
+    outline: none;
+}
+.search input:focus{
+    outline: none;
+}
+
+.search  option{
+    background-color: transparent;
+    color: black;
+}
+.search button{
+    padding: 20px 30px;
+    background: none;
+    border: 2px antiquewhite solid;
+    color: white;
+    font-size: 18px;
+    border-radius: 16px;
+}
+
+/* section-2 */
+
+.section-2{
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+.section-2 h2{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 32px;
+}
+.section-2 .heading-1{
+    text-align: center;
+}
+.section-2 .card {
+    width: 450px;
+    margin: 10px 0;
+}
+
+.section-2 .card img{
+    height: 450px;
+     width: 450px;
+
+}
+
+ .section-2 .card .details{
+    text-align: center;
+   
+}
+.details p{
+    margin: 10px 0;
+}
+.trending-destination{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.details h3{
+    color: green;
+}
+
+
+/* section-3 */
+
+.section-3{
+    
+    background: url(bg-2.svg) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 15px 15px 15px;
+    color: white;
+    text-align: center;
+    
+  }
+  .section-3 h2{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 32px;
+  color: white;
+}
+.section-3 .logo{
+    padding: 10px 20px;
+    font-size: 32px;
+    color: white;
+    background-color: green;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 100%;
+    text-shadow: none;
+}
+.section-3 .box{
+   
+    width: 250px;
+    padding: 10px;
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    margin: 10px;
+    background-color: antiquewhite;
+    text-shadow: none;
+    color: black;
+    
+}
+
+.box h2{
+    color: green;
+
+}
+
+.section-3 .services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+
+/* section-4 */
+
+.section-4{
+    
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    
+  }
+
+  .section-4 h2{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 32px;
+  color: white;
+}
+
+.section-4 .tour-card{
+    width: fit-content;
+    
+}
+
+.section-4 i{
+    color: yellow;
+}
+
+.section-4 .card{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 15px 0;
+    padding: 10px;
+    border-right: 2px white solid;
+    border-left:2px white solid ;
+    cursor: pointer;
+}
+.section-4 .catogaries{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+.section-4 .card img{
+     width: 150px;
+     height: 120px;
+}
+
+.section-4 .card:hover{
+    transform: scale(1.1);
+    border-right: 2px greenyellow solid;
+    border-left:2px greenyellow solid ;
+}
+
+
+
+@media screen and (max-width:590px) {
+    .menu-icon i{
+        display: block;
+        padding: 10px 20px;
+    }
+
+    .links a:hover{
+        background-color: white;
+        color: black;
+    }
+   
+   .links {
+     position: absolute;
+    display: none;
+    left: 0;
+    top: 50px;
+    background-color: black;
+    padding: 20px 10px;
+    width: 100%;
+   }
+   .links a{
+    display: block;
+   }
+}
+
+.menu-icon:hover .links{
+display: block;
+}
+
+.section-2 .card img{
+    width: 400px;
+}
